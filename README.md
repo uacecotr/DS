@@ -4,13 +4,27 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Meet Your Instructor - Allison Platt</title>
+
 <style>
 :root {
 --cotr-blue: #005A84;
 --cotr-gold: #FFC72C;
 --bg-light: #f5f6f7;
 --text: #495057;
-}</head>
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+background: var(--bg-light);
+color: var(--text);
+margin: 0;
+line-height: 1.6;
+}
+
+/* rest of CSS */
+</style>
+</head>
+
 
 <body>
   {
@@ -115,7 +129,6 @@ flex-direction: column;
 .about-section img {
 width: 100%;
 max-width: 300px;
-120
 }
 }
 </style>
@@ -125,7 +138,7 @@ max-width: 300px;
 <div class="container">
 <div class="card header">
 <div class="profile">
-<allison-photo.jpg" alt="Instructor Photo">
+<allison-photo.jpg" alt="Photo of Allison Platt">
 
 <div>
 
@@ -147,7 +160,7 @@ succeed and support you through your learning journey.
 aplatt@cotr.bc.ca
 
 <a class="button"
-href="https://teams.microsoft.com/l/channel/19%3A5a17da30855149538f90dc017f150d4e%40thread.tacv2/MATH%2081?groupId=226bec0e-1259-41cd-b997-60ce4e94d297&tenantId=7a2f8d69-e77a-49e2-999e-accc9d9div>
+href="https://teams.microsoft.com/l/channel/19%3A5a17da30855149538f90dc017f150d4e%40thread.tacv2/MATH%2081?groupId=226bec0e-1259-41cd-b997-60ce4e94d297&tenantId=7a2f8d69-e77a-49e2-999e-accc9d9</a></div>
 <div class="card">
 
 <h2>Contact Information</h2>
@@ -158,7 +171,6 @@ href="https://teams.microsoft.com/l/channel/19%3A5a17da30855149538f90dc017f150d4
 
 <p>
 <strong>Email:</strong>
-aplatt@cotr.bc.ca
 aplatt@cotr.bc.ca
 </a>
 </p>
@@ -193,8 +205,7 @@ In the classroom or through Microsoft Teams.
 <div class="card schedule">
 
 <h2>Current Classroom Schedule</h2>
-
-schedule.jpg Studies Timetable">
+<img src="DSMathCBKFall2026.jpg" alt="Classroom Schedule">
 
 <p style="text-align:center;color:#666;">
 Schedule subject to change.
@@ -221,7 +232,7 @@ in Room 180/181.
 
 <div class="about-section">
 
-avatar.png
+<img src="AllisonMathAviCent.png" alt="Allison Platt avatar">
 
 <div>
 
@@ -257,16 +268,11 @@ it. Are you?
 
 <h2>Need Help?</h2>
 
-Questions, concerns, or just feeling stuck? Reach out through Microsoft
-
-Teams or stop by the classroom during scheduled support hours.
-
+<p>Questions, concerns, or just feeling stuck? Reach out through Microsoft Teams or stop by the classroom during scheduled support hours.
 </p>
 
 <p>
-
 Your success is important, and I am happy to help.
-
 </p>
 
 </div>
