@@ -138,7 +138,7 @@ max-width: 300px;
 <div class="container">
 <div class="card header">
 <div class="profile">
-<allison-photo.jpg" alt="Photo of Allison Platt">
+<img src="allison-photo.jpg" alt="Photo of Allison Platt">
 
 <div>
 
